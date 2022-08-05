@@ -16,7 +16,7 @@ const pageName = "Detalhes"
     return(
     <MainContainer>
       <Grid>
-        <img src={`https://image.tmdb.org/t/p/w500/${state.data.poster_path}`} alt=""/>
+        <img src={`https://image.tmdb.org/t/p/w500/${state.data.poster_path}`} alt="poster do filme"/>
           <RightSide>
             <p><b>Titulo:</b> {state.data.title}</p>
             <p><b>Sinopse:</b> {state.data.overview}</p>
