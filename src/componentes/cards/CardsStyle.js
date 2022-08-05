@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-export const Container = styled.div `
+export const Container = styled(Link) `
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -37,7 +37,7 @@ img{
 }
 `
 
-export const Grid = styled(Link) `
+export const Grid = styled.div`
 display: grid;
 justify-content: center;
 align-items: center;

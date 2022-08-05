@@ -39,11 +39,11 @@ const onHoverDetail = (event) => {
 }
 
     return (
-        <Grid to="/detalhes">
+        <Grid >
             {!filmes ? <div>Loading</div> : <>
                 {filmes.map((filme) => {
                     return (
-                        <Container key={filme.id} id={filme.id} onMouseEnter={onHoverDetail}>
+                        <Container key={filme.id} id={filme.id} onMouseEnter={onHoverDetail} to="/detalhes"> 
                             <img src= {`https://image.tmdb.org/t/p/w500/${filme.poster_path}`} alt="poster" ></img>
                             <div className="infoContainer" id={filme.id}>
                                 <p>{filme.title}</p>
