@@ -7,7 +7,7 @@ export const store = configureStore({
     reducer: {
         page: pageReducer,
     }
-    // middleware: getDefaultMiddleware => getDefaultMiddleware({
+    // , middleware: getDefaultMiddleware => getDefaultMiddleware({
     //     serializableCheck: false
     // })
 })

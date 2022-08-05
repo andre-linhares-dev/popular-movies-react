@@ -34,6 +34,7 @@ img{
     width: 25.65vw;
     height: auto;
     border-style: solid;
+    border-radius: 15px;
     border-width: 2px;
     border-color: #ededed;
     

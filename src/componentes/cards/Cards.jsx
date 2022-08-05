@@ -14,9 +14,9 @@ export function Cards() {
         PegarFilmes(setFilmes)
     }, [])
 
-    useEffect(() => {
-        dispatch(getMovieDetail(detalhes))
-    }, [detalhes])
+    // useEffect(() => {
+    //     dispatch(getMovieDetail(detalhes))
+    // }, [detalhes])
 
 // const styleCardsGeneral = {
 //     display: "grid",
